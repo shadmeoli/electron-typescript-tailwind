@@ -16,7 +16,7 @@ export default function Welcomescreen() {
     <>
       <div className="w-screen h-screen flex flex-row items-center justify-center font-primary bg-gray-200">
         <div className="flex flex-col items-center space-y-4">
-          <img src={Logo} alt="" className="h-60 w-60 animate-pulse duration-500" />
+          <img src={Logo} alt="" className="w-[60%] duration-500" />
           <h1 className="font-semibold">Electron + Typescript + React + Tailwindcss</h1>
           <p>A Simple template for electron</p>
           <div className="flex flex-row space-x-2">
